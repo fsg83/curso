@@ -21,8 +21,8 @@ footer {
 }
 
 li {
-    display: inline;
-    width: 100px;
+    display: inline-block;
+    width: 170px;
 }
 
 h1 {
