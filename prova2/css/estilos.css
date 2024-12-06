@@ -13,7 +13,8 @@ nav {
     width: 80%;
 }
 
-nav img {
+/* The instructions asked to change the image in "NAV," but the image was not in "NAV"; it was inside the "HEADER." */
+header img {
     width: 10%;
     position: relative;
     top: 20px;
@@ -27,6 +28,10 @@ nav ul {
 li {
     /* display: inline-block;
     width: 170px;*/
+}
+
+nav li {
+    display: inline-block;
 }
 
 main {
