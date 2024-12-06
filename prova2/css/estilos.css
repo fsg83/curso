@@ -60,6 +60,8 @@ p {
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    row-gap: 1rem;
 }
 
 .grid img {
