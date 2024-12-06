@@ -25,13 +25,16 @@ nav ul {
     list-style: none;
 }
 
+/* The standalone "LI" was commented out. */
 li {
     /* display: inline-block;
     width: 170px;*/
 }
 
+/* I reapplied styles to "NAV LI" to make the site's appearance closer to what was presented. */
 nav li {
     display: inline-block;
+    margin: 0 1rem;
 }
 
 main {
