@@ -28,10 +28,10 @@ footer {
     background-color: #d3d3d3;
 }
 
-/*li {
-    display: inline-block;
-    width: 170px;
-}*/
+li {
+    /* display: inline-block;
+    width: 170px;*/
+}
 
 h1 {
     text-align: center;
@@ -43,6 +43,7 @@ p {
     line-height: 1;
 }
 
+/* GRID */
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
@@ -50,4 +51,11 @@ p {
 
 .grid img {
     width: 100%;
+}
+
+/* FLEX */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
