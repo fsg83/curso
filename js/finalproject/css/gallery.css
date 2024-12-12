@@ -1,8 +1,10 @@
 body{
+    font-family: sans-serif;
     margin: 2%;
     border: 1px solid black;
     background-color: #b3b3b3;
 }
+
 #image{
     line-height:650px;
     width: 575px;
