@@ -1,0 +1,105 @@
+/* GLOBAL */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #dedede;
+    padding: 5px;
+    margin: 15px;
+    font-size: 25px;
+    font-family:Arial, sans-serif;
+}
+
+/* HEADERS */
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 1.95em;
+}
+
+h2 {
+    text-align:center;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 98%;
+    gap: 10px;
+}
+
+/* lIST */
+li {
+    margin-top: 20px;
+}
+
+/* IMAGES */
+img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* FIGURE */
+figure {
+    border: 5px solid green;
+    border-radius: 35px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+figcaption {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* LABEL */
+.label {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* MEDIA QUERIES */
+
+/* tablets */
+@media (min-width: 772px) {
+    .grid {
+        grid-template-columns: 48% 48%;
+    }
+
+    figure {
+        border-radius: 100%;
+        overflow: hidden;
+    }
+
+    .grid figure:last-child{
+        grid-column: span 2;
+    }
+}
+
+/* large screens */
+@media (min-width: 992px) {
+    figure {
+        border-radius: 0;
+    }
+
+    .grid :nth-child(3n) {
+        grid-column: span 2;
+      }
+}
+
+/* prefers reduced motion */
+@media (prefers-reduced-motion) {
+    html {
+        scroll-behavior: initial;
+    }
+}
+
+/* dark theme */
+@media (prefers-color-scheme: dark) {
+    figure {
+        border: 5px solid #000000;
+        background-color: #000000;
+        color: yellow;
+    }
+}
