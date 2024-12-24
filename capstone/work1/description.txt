@@ -1,3 +1,5 @@
-Hello there! 
+Hello there!
 
 I am currently working on a website based on Start Bootstrap, aiming to improve both its visual design and the code. During validations using the W3C Validator and the Wave tool, I found many coding errors and color contrast issues. My main focus now is to address these problems, making the site more accessible and aligned with semantic best practices, ensuring an inclusive and functional experience for all users.
+
+The website will feature functionalities like carousels, maps, forms, and much more. I’ll continuously work on customizing these elements to make them as visually appealing and user-friendly as possible.
